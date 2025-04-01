@@ -431,7 +431,7 @@ Total line number = 7
 It costs 0.119s
 ```
 
-使用 arrival_time 列作为辅助时间列，并设置时间间隔（TIME_BOUND）为 2 ms（前值距离当前值超过 2ms 就不填充）：
+使用 arrival_time 列作为辅助时间列，并设置时间间隔（TIME_BOUND）为 2s（前值距离当前值超过 2s 就不填充）：
 
 ```sql
 SELECT time, plant_id, device_id, humidity, arrival_time
